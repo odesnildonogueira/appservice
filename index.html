@@ -13,7 +13,7 @@
 
       header {
         width: 100%;
-        height: 70px;
+        height: 100px;
         background-color: #fafcfc;
         padding-top: 10px;
         margin-bottom: 50px;
@@ -41,13 +41,25 @@
         margin: 0 10px;
         align-items: center;
       }
+
+      .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     </style>
 
   </head>
 
   <body>
     <header>
-      <h1 id="titulo">Aplicativo WEB - Odesnildo Nogueira</h1>
+      <div class="header-container">
+        <img src="azure-logo.png" width="50px" height="50px" alt="Descrição da Imagem">
+        <div>
+          <h1 id="titulo">Serviços de Aplicativos</h1>
+        </div>
+      </div>
+      <h2 id="titulo">Odesnildo Nogueira</h2>
     </header>
     <div>
       <img id="imagem" src="appservice.png">
